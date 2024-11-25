@@ -1,0 +1,89 @@
+#mainHeading{
+    color:  blue;
+    background-color: darkcyan;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px black;
+    border: 10px solid purple;
+    border-radius: 40px;
+}
+
+.raayan{
+    width: 350px;
+    height: 300px;
+    background-color: lightgreen;
+    border: 2px solid black;
+
+}
+
+#kaartavaRaayan{
+    object-fit: fill;
+}
+
+#sethu{
+    object-fit: contain;
+}
+
+#muthuvelaRaayan{
+    object-fit: cover;
+}
+
+#manickaRaayan{
+    object-fit: none;
+}
+
+#durga{
+    object-fit: scale-down;
+}
+
+
+
+#body{
+    background-color: lightcyan;
+}
+
+.raayanPoster{
+    width: 200px;
+    height: 490px;
+    object-fit: none;
+}
+
+#dhanush{
+    object-position: -1380px -1147px;
+}
+
+
+#surya{
+    object-position: -1665px -1240px;
+    
+}
+
+#sandeep{
+    object-position: -1080px -1200px;
+}
+
+#kalidas{
+    object-position: -670px -1290px;
+}
+
+#dushara{
+    object-position: -860px -1200px;
+}
+
+ 
+h1::first-line {
+    color: red;
+    font-size: 2rem;
+} 
+
+p::first-letter{
+    color: cornflowerblue;
+    font-size: 2.5rem;
+}
+
+p::selection{
+    background-color: aquamarine;
+    color: red;
+}
